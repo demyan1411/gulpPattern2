@@ -31,6 +31,10 @@ html {
 body {
 	height:100%;
 	position: relative;
+	font-family: $defaultFontFamily;
+	font-size: $defaultFontSize;
+	line-height: $defaultLineHeight;
+	color: $defaultColor;
 }
 
 /* чтобы прибить футер к низу */

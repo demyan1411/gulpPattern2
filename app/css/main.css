@@ -6,6 +6,7 @@
 /* colors */
 /* --------- fonts --------- */
 /* fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic&subset=cyrillic-ext,cyrillic,latin-ext,latin);
 /* fonts end */
 /* --------- sections --------- */
 /* стили по умолчанию */
@@ -35,7 +36,11 @@ html {
 
 body {
   height: 100%;
-  position: relative; }
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  color: #263343; }
 
 /* чтобы прибить футер к низу */
 .main {
@@ -49,10 +54,10 @@ body {
 
 /* defaul style end  */
 .wrapper {
-  max-width: 960px;
+  max-width: 990px;
   margin: 0 auto; }
 
 .footer {
   width: 100%;
-  height: 50px;
+  height: 100px;
   background: blue; }
